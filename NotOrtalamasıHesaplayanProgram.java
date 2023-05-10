@@ -32,4 +32,3 @@ public class NotOrtalamasıHesaplayanProgram{
         System.out.println(sinifGecmeDurumu);
     }
 }
-    
