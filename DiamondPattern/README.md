@@ -33,16 +33,3 @@ It prints the required number of asterisks using another loop.
 It moves to the next line.
 It adjusts the spaceCount and starCount variables for the next row.
 Once the pattern is fully printed, the program terminates.
-## Sample Output
-Here's an example of the program's output for a diamond height of 5:
-
-Enter the height of the diamond: 5
-    *
-   ***
-  *****
- *******
-*********
- *******
-  *****
-   ***
-    *
