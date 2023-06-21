@@ -28,6 +28,7 @@ public class AdvancedCalculator {
         System.out.println("7- Find Mode");
         System.out.println("8- Rectangle Area and Perimeter");
         int operation = inp.nextInt();
+        inp.close();
 
         // Perform the operation and print the result.
         switch (operation) {
@@ -139,4 +140,5 @@ public class AdvancedCalculator {
     private static int rectanglePerimeter(int[] numbers) {
         return 2 * (numbers[0] + numbers[1]);
     }
+    
 }
