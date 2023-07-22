@@ -112,8 +112,8 @@ public abstract class BattleLoc extends Locations{
     
 
 
-    public int randomMonster() {
-        return (int) (Math.random() * maxMonster) + 1;
+    public int randomMonster(){
+        return (int) ((Math.random() * this.getMaxMonster()) + 1);
     }
 
     public Monsters getMonster(){
